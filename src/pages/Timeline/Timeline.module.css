@@ -1,0 +1,82 @@
+.timelineContainer {
+  padding: 5rem 2rem;
+  background: #000;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #fff;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.point {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  min-width: 100px;
+  text-align: center;
+}
+
+.yearTop {
+  position: absolute;
+  top: -3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background: #333;
+  border: 3px solid #aaa;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
+
+.dot:hover {
+  transform: scale(1.4);
+  border-color: #0ff;
+  box-shadow: 0 0 20px #0ff;
+}
+
+.dot.active {
+  background: #000;
+  border-color: #0ff;
+  box-shadow: 0 0 12px #0ff, 0 0 25px #0ff,
+    inset 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+.factBottom {
+  position: absolute;
+  font-size: 0.85rem;
+  top: 5vh;
+  color: rgb(255, 255, 255);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem 0.7rem;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+  white-space: normal;
+}

@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+button{
+  font: 16px 'Comic Sans MS', monospace;
+  height: 7vh;
+  width: 15vw;
+  color: #000;
+   background-color: rgb(196, 196, 177);
+  border: 2px solid;
+  border-color: #fff #404040 #404040 #fff;
+  padding: 6px 16px;
+  box-shadow: 1px 1px 0 #808080;
+  cursor: pointer;
+}
