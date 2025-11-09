@@ -27,5 +27,6 @@ The application is built with **React**, **TypeScript**, and **Vite**, using dyn
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/ValeriaMakarevich/Retro-web.git
+   npm install
    cd Retro-web
 
