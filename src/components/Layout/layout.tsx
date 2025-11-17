@@ -14,12 +14,14 @@ function Layout() {
   }
 
     return (
-      <div className={`${getBackground()}`}>
+      <div className={`${styles.container} ${getBackground()}`}>
         <div className={styles.header}>
           <Header />
         </div>
         <Menu />
-        <Outlet />
+        <div className={styles.outletContainer}>
+          <Outlet />
+        </div>
       </div>
     );
 }
