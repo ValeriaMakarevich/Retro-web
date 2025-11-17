@@ -1,0 +1,89 @@
+.container {
+  color: rgb(0, 0, 0);
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: rgb(211, 210, 207);
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 30px;
+}
+
+.infoContainer{
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-align: center;
+width: 90%;
+gap: 0;
+margin: 0 auto;
+}
+
+.wrapperImageComputer{
+  background-color: black;
+  border-radius: 10px;
+}
+
+.factContainer{
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;            
+  flex-direction: column;   
+  justify-content: center; 
+  align-items: center; 
+}
+
+.btnImgContainer{
+  background-color: rgb(137, 218, 255);
+  border: black 1px solid;
+  border-radius: 10px;
+}
+
+.btnImg{
+  width: 70%;
+ 
+}
+
+.inpContainer{
+  font-size: 1.8rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.input{
+  background: black;
+  color: aliceblue;
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 15px;
+}
+
+.titleTech{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.technologies{
+font-size: 1.3rem;
+text-align: center;
+}
+
+
+.tech{
+list-style-type: none;
+}
+
+.back{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  margin-left: 12%;
+}
+
