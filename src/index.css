@@ -1,10 +1,12 @@
 :root{
-  font-family: "Comic Sans MS", cursive;
+   font-family: "Comic Sans MS", cursive;
   line-height: 1.5;
   font-weight: 400;
-  background-image: url(https://grainy-gradients.vercel.app/noise.svg);
-  background: linear-gradient(#454ea1, #a8bef3);
-  height: 100%;
+  background-image:
+    url("https://grainy-gradients.vercel.app/noise.svg"),
+    linear-gradient(#4867a7, #a8bef3);
+  background-attachment: fixed, fixed;
+  background-size: cover, cover;
 }
 
 body {
